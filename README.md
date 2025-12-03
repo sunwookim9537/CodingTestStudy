@@ -1,5 +1,6 @@
 <img width="1000" height="450" alt="image" src="https://github.com/user-attachments/assets/cc996d74-a44b-4213-8d97-5e94ddb52820" />
 
+![Contributors](https://img.shields.io/github/contributors/Java-CodingTestStudy/CodingTestStudy)
 
 ## 🔥코딩 테스트 스터디🔥
 - **JAVA 자료구조/알고리즘 코테** 스터디입니다.
@@ -34,6 +35,13 @@
 
 <br>
 
+## 📅 출석/진행 현황
+
+| 참석 | 예진 | 채원 | 성준 | 민석 | 훈주 | 의선
+| :---: | :---: | :---: | :---: | :---: |:---: | :---: |
+| Week 01</br>(25.12.04.수) | ✅ | ✅ | ✅ | ✅ |✅ | ✅ |
+
+
 ## 🔸스터디 규칙
 
 1. 문제 안 푼 경우 **문제 당 벌금 1000원**
@@ -57,11 +65,11 @@
 7. ***주의!! 기존 폴더를 지우면 안됩니다!!*** 개인 폴더 내부만 수정해주세요 :)
 
 ## 🔸 commit 규칙
-- commit 메세지: [문제 출처(플랫폼)] 문제번호 문제이름
+- commit 메세지: [문제 출처(플랫폼)] 문제번호_문제이름
 - description: 문제 주소 (option)
 - 터미널에서 작성법
   ```
-  git commit -m "[BOJ] Hello World -m "https://www.acmicpc.net/problem/2557"
+  git commit -m "[BOJ] 1234_Hello World -m "https://www.acmicpc.net/problem/2557"
   ```
 - 플랫폼 작성법 통일
   > [BOJ] - 백준   
@@ -70,7 +78,41 @@
   > [SEA] - 삼성SW Expert Academy  
   > [ETC] - 그외  
 
-### 🔹 소스 코드 업로드 방법
+### 🔹소스 코드 업로드 방법
+
+* 파일 이름
+    ```
+    BOJ_1234_Hello World.java
+    ```
+
+* 디렉토리
+  ```
+    📁 AlgoStudy
+    │
+    ├─ 📁 01_문자열    
+    │    ├─ 자료.md   ← 강의 자료 또는 개념 정리
+    │    ├─ 📁 예진
+    │    │    ├─ BOJ_123_HelloWorld.java
+    │    │    └─ PGS_문자열압축.java
+    │    ├─ 📁 철수
+    │    │    └─ BOJ_123_HelloWorld.java
+    │    ├─ 📁 민지
+    │         └─ PGS_신규아이디추천.java
+    │
+    ├─ 📁 02_배열   
+    │    ├─ 자료.md
+    │    ├─ 📁 예진
+    │    ├─ 📁 철수
+    │    └─ 📁 민지
+    │
+    ├─ 📁 03_스택큐
+    |
+    ├─ 📁 ...
+    │
+    └─ README.md
+  
+  ```
+  * 자기 이름의 폴더는 자기 이름 혹은 깃허브 이름 사용
 
 ---
 
@@ -412,7 +454,7 @@
 
 ------
 </details>
-
+ 
 
 ---
 
@@ -451,3 +493,6 @@
     </td>
   </tr>
 </table>  
+
+![GitHub Contribution Graph](https://ghchart.rshah.org/1004Jumto)
+
