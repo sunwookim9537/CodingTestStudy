@@ -66,10 +66,10 @@
 
 ## 🔸 commit 규칙
 - commit 메세지: [문제 출처(플랫폼)] 문제번호_문제이름
-- description: 문제 주소 (option)
+- description: 문제 주소, 문제 레벨 등 (option)
 - 터미널에서 작성법
   ```
-  git commit -m "[BOJ] 1234_Hello World -m "https://www.acmicpc.net/problem/2557"
+  git commit -m "[BOJ] 1234_Hello World" -m "https://www.acmicpc.net/problem/2557"
   ```
 - 플랫폼 작성법 통일
   > [BOJ] - 백준   
@@ -82,14 +82,14 @@
 
 * 파일 이름
     ```
-    BOJ_1234_Hello World.java
+    [BOJ] 1234_Hello World.java
     ```
 
 * 디렉토리
   ```
     📁 AlgoStudy
     │
-    ├─ 📁 01_문자열    
+    ├─ 📁 문자열    
     │    ├─ 자료.md   ← 강의 자료 또는 개념 정리
     │    ├─ 📁 예진
     │    │    ├─ BOJ_123_HelloWorld.java
@@ -99,13 +99,15 @@
     │    ├─ 📁 민지
     │         └─ PGS_신규아이디추천.java
     │
-    ├─ 📁 02_배열   
+    ├─ 📁 배열   
     │    ├─ 자료.md
     │    ├─ 📁 예진
     │    ├─ 📁 철수
     │    └─ 📁 민지
     │
-    ├─ 📁 03_스택큐
+    ├─ 📁 스택큐
+    |
+    ├─ 📁 프로그래머스_해시
     |
     ├─ 📁 ...
     │
@@ -113,6 +115,15 @@
   
   ```
   * 자기 이름의 폴더는 자기 이름 혹은 깃허브 이름 사용
+
+## 🔸 PR 규칙
+
+* PR 제목: 이름 / 커리큘럼 / 분류 / 푼 문제 수
+```
+Yejin / 코테를 위한 알고리즘 / 그리디 / 5문제
+```
+* comment는 자유: 어떤 문제가 어려웠는지, 새롭게 배운 내용 등 회고 자유롭게 작성 가능
+
 
 ---
 
