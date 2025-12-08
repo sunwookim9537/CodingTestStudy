@@ -12,7 +12,9 @@
 */
 
 import java.util.Set;
-import java.util.HashSet; 
+import java.util.HashSet;
+import java.util.List;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -35,6 +37,19 @@ class Solution {
         */
         
         // 문자열 배열 순회하면서 접두어 검사
+        set.add(phone_book[0]);
+        for(int i = 1; i < phone_book.length; i++){
+            for(int j = 0; j <= phone_book[i - 1].length(); j++){                 
+                if(set.contains(phone_book[i].substring(0, j))){
+                    return false;
+                }
+            }
+            // set에 없으면 문자열을 접두어로 추가
+            set.add(phone_book[i]); 
+        }
+        
+        /*
+        // 문자열 배열 순회하면서 접두어 검사
         for(String s : phone_book){
             for(int i = 0; i <= s.length(); i++){                 
                 if(set.contains(s.substring(0, i))){
@@ -44,6 +59,7 @@ class Solution {
             // set에 없으면 문자열을 접두어로 추가
             set.add(s); 
         }
+        */
         
         
         return answer;
