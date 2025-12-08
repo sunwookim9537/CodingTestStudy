@@ -74,7 +74,7 @@
   git commit -m "[BOJ] 1234_Hello World" -m "https://www.acmicpc.net/problem/2557"
 
   // 한번에 다 올리는 경우 예시
-  git commit -m "[BOJ]{PGS] 문자열_이예진"
+  git commit -m "[BOJ][PGS] 문자열_이예진"
   ```
 - 플랫폼 작성법 통일
   > [BOJ] - 백준   

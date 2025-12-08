@@ -1,16 +1,3 @@
-package StudyCodingTest.String;
-
-public class IDRecommend {
-
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-
-        System.out.println(sol.solution("...!@BaT#*..y.abcdefghijklm"));  // bat.y.abcdefghi
-        System.out.println(sol.solution("z-+.^."));                       // z--
-        System.out.println(sol.solution("=.="));                          // aaa
-        System.out.println(sol.solution("123_.def"));                     // 123_.def
-        System.out.println(sol.solution("abcdefghijklmn.p"));             // abcdefghijklmn
-    }
     /*
         3<= new_id.length <= 15;
         new id 오로지 소문자 이거 혹시 .toLowerCase()
@@ -18,7 +5,7 @@ public class IDRecommend {
         처음과 끝 . 안돼 연속 안돼
         너무많음 박스 내용 보자
     */
-    private static class Solution {
+class Solution {
         public String solution(String new_id) {
 
             // 소문자만 가능
@@ -30,10 +17,11 @@ public class IDRecommend {
             new_id  = new_id.replaceAll("[^0-9a-z-_.]","");
 
             // 연속된.을 .하나로 바꿔
-            new_id = new_id.replaceAll(todo);
+            new_id = new_id.replaceAll("\\.{2,}", ".");
 
             // 첨과 끝 . 안돼
-            new_id = new_id.replaceAll(todo);
+            new_id = new_id.replaceAll("^[.]", "");
+            new_id = new_id.replaceAll("[.]$", "");
 
             // 빈 문자열이야 그럼 a 넣어
             if(new_id.length() == 0){
@@ -44,7 +32,7 @@ public class IDRecommend {
             // 근데 제거를 했는데 마지막이 .이야 제거  replaceAll 쓰자는거잖아.
             if(new_id.length() > 15){
                 new_id = new_id.substring(0,15);
-                new_id = new_id.replaceAll(todo,"");
+                new_id = new_id.replaceAll("[.]$","");
             }
 
             // 3자 미만이야 그럼 마지막 문자 반복하자
@@ -55,4 +43,3 @@ public class IDRecommend {
             return new_id;
         }
     }
-}
