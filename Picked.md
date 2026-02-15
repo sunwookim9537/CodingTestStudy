@@ -6,7 +6,7 @@
 | --- | --- | --- | --- | ----- | --- | --- |
 | 1 <br>  | 2 <br> [week04_3](https://school.programmers.co.kr/learn/courses/30/lessons/60057) | 3 <br> [week04_4](https://school.programmers.co.kr/learn/courses/30/lessons/131533) | 4 <br> [week04_5](https://school.programmers.co.kr/learn/courses/30/lessons/42862) | 5 <br>💻✍ | 6 <br>  [week05_1](https://school.programmers.co.kr/learn/courses/30/lessons/42579) <br> [week05_2](https://school.programmers.co.kr/learn/courses/30/lessons/42748) | 7 <br> [week05_3](https://school.programmers.co.kr/learn/courses/30/lessons/42747) <br> [week05_4](https://school.programmers.co.kr/learn/courses/30/lessons/86491) |
 | 8 <br>  | 9  <br> [week05_5](https://school.programmers.co.kr/learn/courses/30/lessons/84512)  <br> [week05_6](https://school.programmers.co.kr/learn/courses/30/lessons/133027) | 10 <br> [week05_7](https://school.programmers.co.kr/learn/courses/30/lessons/86971) | 11 <br>   | 12 <br> 💻✍ | 13 <br>  [week06_1](https://school.programmers.co.kr/learn/courses/30/lessons/43164) <br> [week06_2](https://school.programmers.co.kr/learn/courses/30/lessons/157339) | 14 <br> [week06_3](https://school.programmers.co.kr/learn/courses/30/lessons/64065) <br> [week06_4](https://school.programmers.co.kr/learn/courses/30/lessons/131124)|
-| 15 <br> | 16 <br> | 17 <br> | 18 <br> | 19 <br> 💻✍🏼   | 20 <br>  | 21 <br>  |
+| 15 <br> | 16 <br> [week06_5](https://school.programmers.co.kr/learn/courses/30/lessons/72411) | 17 <br> | 18 <br> | 19 <br> 💻✍🏼   | 20 <br>  | 21 <br>  |
 | 22 <br> | 23 <br> | 24 <br> | 25 <br> | 26 <br> 💻✍🏼  | 27 <br | 28 <br>  |
 
 ---
