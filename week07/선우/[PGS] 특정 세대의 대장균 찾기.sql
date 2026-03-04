@@ -18,6 +18,7 @@ WITH RECURSIVE tree AS (
     FROM ecoli_data e
     JOIN tree t
         ON e.parent_id = t.id
+    where t.level < 3
 )
 
 SELECT id
