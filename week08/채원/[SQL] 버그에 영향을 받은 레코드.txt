@@ -1,0 +1,10 @@
+SELECT c.cart_id,
+	CASE
+		WHEN sum(c.price)<s.Minimum_requirement then 1
+		ELSE 0
+	END AS abused
+FROM cart_products c
+	JOIN coupons s
+ON c.cart_id=s.cart_id
+group by c.cart_id,s.minimum_requirement
+ORDER BY c.cart_id asc;
